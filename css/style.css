@@ -1,0 +1,296 @@
+/* 公共部分---反复使用的样式 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.blue {
+    color: #00a4ff!important;
+}
+/* header开始 */
+.header .w {
+    height: 100px;
+    /* 开启弹性布局---控制里面的子元素 */
+    display: flex;
+    /* 控制侧/Y轴垂直居中 */
+    align-items: center;
+    /* 控制主/X轴水平--两端对齐，剩下平分 */
+    justify-content: space-between;
+}
+.header .nav li {
+    float: left;
+    margin: 0 13px;
+}
+.header .nav a{
+    padding: 7px;
+    font-size: 18px;
+    color: #050505;
+}
+.header .nav a.active,.header .nav a:hover  {
+    border-bottom: 2px solid #00a4ff;
+}
+.header .search {
+    width: 411px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    /* css3新盒子模型  写width是多少就是多少，
+    不管你的padding和border有多少 */
+    box-sizing: border-box;
+}
+.header .search .text {
+    float: left;
+    padding-left: 16px;
+    width: 360px;
+    height: 38px;
+    box-sizing: border-box;
+}
+.header .search .btn {
+    float: left;
+    width: 49px;
+    height: 38px;
+    background: url(../images/btn.png) center;
+}
+.header .user {
+    margin-right: 30px;
+    font-size: 15px;
+}
+/* banner开始 */
+.banner {
+    height: 420px;
+    background: #1c036c url(../images/banner2.png) no-repeat center;
+}
+.banner .nav {
+    float: left;
+    height: 420px;
+    width: 190px;
+    background-color: rgba(0,0,0,.3);
+}
+.banner .nav li:first-child {
+    margin-top: 12px;
+}
+.banner .nav li a {
+    display: block;
+    font-size: 14px;
+    line-height: 44px;
+    color: white;
+    margin: 0 20px;
+}
+.banner .nav a::after {
+    content: '>';
+    float: right;
+}
+.banner .nav a.active,.banner .nav a:hover {
+    color: #00a4ff;
+}
+.banner .myclass {
+    margin-top: 50px;
+    float: right;
+    width: 228px;
+    height: 300px;
+    background-color: white;
+}
+.banner .myclass .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 48px;
+    color: #fff;
+    background-color: #9bceea;
+    text-align: center;
+}
+.banner .myclass .list {
+    padding: 0 15px;
+}
+.banner .myclass .list li {
+    padding: 12px 0;
+    border-bottom: 1px solid #efefef;
+}
+.banner .myclass .list h4{
+    font-size: 14px;
+    color: #4e4e4e;
+}
+
+.banner .myclass .list h4 strong{
+    font-size: 16px;
+    color: #4e4e4e;
+}
+.banner .myclass .list p{
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.banner .myclass button {
+    display: block;
+    margin: 5px auto 0;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #00a4ff;
+    border: 1px solid #00a4ff;
+    background-color: white;
+}
+/* nav-index开始 */
+.nav-index {
+    height: 60px;
+    margin-top: 8px;
+    padding-top: 1px;
+    box-sizing: border-box;
+}
+.nav-index ul {
+    height: 60px;
+    padding-top: 22px;
+    padding-left: 32px;
+    box-sizing: border-box;
+    background-color: white;
+                /* x轴方向 y轴方向 模糊程度 缩放能力 颜色 */
+    box-shadow: 0px 2px 5px 0px rgba(118, 118, 118, 0.5)
+}
+.nav-index ul li {
+    margin-right: 32px;
+    padding-right: 32px;
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    border-right: 1px solid #bfbfbf;
+}
+.nav-index ul li.none {
+    border-right: 0px;
+}
+.nav-index ul li:last-child {
+    float: right;
+    margin-right: 0;
+}
+.nav-index ul li a {
+    font-size: 16px;
+    line-height: 16px;
+    color: #050505;
+}
+/* .nav-index ul li:last-child a
+找到最后一个li里面的a
+和
+.nav-index ul li a:last-child
+找到每一个li 里面最后一个a
+*/
+.nav-index ul li:last-child a{
+    font-size: 14px;
+}
+/* main开始 */
+.main {
+    margin-top: 20px ;
+}
+.main .title {
+    height: 60px;
+    line-height: 60px;
+    /* 因为line-height是存在继承性的，所以他们的儿子孙子都具备这个属性 */
+}
+.main .title h4{
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+.main .title .all {
+    float: right;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.main .list li {
+    position: relative;
+    float: left;
+    width: 228px;
+    height: 270px;
+    margin: 0 15px 15px 0;
+    background-color: white;
+}
+.main .list li:hover {
+    box-shadow: 0px 2px 5px 0px rgba(118, 118, 118, 0.5)
+}
+.main .list li:nth-child(5n){
+    margin-right: 0;
+}
+.main .list li h5 {
+    font-size: 14px;
+    line-height: 20px;
+    color: #050505;
+    margin: 25px 20px 20px 25px;
+}
+.main .list li p {
+    margin-left: 25px;
+    font-size: 12px;
+    color: #999;
+}
+.main .list li p .orange {
+    color: #ff7c2d;
+}
+.main .list li .pic {
+    display: block;
+    width: 100%;
+}
+.main .list .abs-hot {
+    position: absolute;
+    right: -4px;
+    top: 5px;
+}
+/* footer开始 */
+.footer {
+    height: 420px;
+    background-color: white;
+}
+.footer .left {
+    width: 430px;
+    float: left;
+    color: #666;
+    font-size: 12px;
+    line-height: 18px;
+}
+.footer .left .logo {
+    margin-top: 30px;
+}
+.footer .left .info {
+    margin: 20px 0 15px;
+}
+.footer .left .btn {
+    width: 120px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 34px;
+    border: 1px solid #00a4ff;
+    color: #00a4ff;
+    background: white;
+}
+.footer .right{
+    float: right;
+}
+.footer .right ul {
+    float: left;
+    width: 220px;
+    font-size: 12px;
+    line-height: 21px;
+    margin-top: 35px;
+    color: #333;
+}
+.footer .right ul:last-child{
+    width: 100px;
+}
+.footer .right ul li:first-child{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 14px;
+}
+/* fixed-nav */
+.fixed-nav {
+    position: fixed;
+    left: 50%;
+    margin-left: -800px;
+    top: 30%;
+    width: 183px;
+    height: 425px;
+    background-color: white;
+}
+.fixed-nav ul {
+    padding: 25px;
+}
+.fixed-nav a {
+    font-size: 14px;
+    line-height: 36px;
+}
+.fixed-nav a:hover {
+    color: #00a4ff;
+}

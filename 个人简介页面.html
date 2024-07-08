@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/self.css">
+    <!-- 引入标题图片 -->
+    <link rel="shortcut icon" href="./images/lg.ico">
+    <title>个人简介</title>
+    <style>
+        .logo img{
+            width: 180px;
+            height: 100px;
+        }
+        .user img{
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <div class="w">
+            <h1 class="logo"><img src="./images/logo2.png" alt=""></h1>
+            <ul class="nav clearfix">
+                <li><a href="./学成在线教育平台首页.html">首页</a></li>
+                <li><a href="./留言板页面.html">留言板</a></li>
+                <li><a class="active" href="./个人简介页面.html">个人简介</a></li>
+            </ul>
+            <div class="search clearfix">
+                <input placeholder="请输入关键字" class="text" type="text">
+                <a href="./搜索内容分类页.html"><button class="btn"></button></a>
+            </div>
+            <div class="user">
+                <img src="./images/user.png" alt="">
+                <span>WDN0120</span>
+            </div>
+        </div>
+    </div>
+    <!-- 中部 -->
+    <div class="banner">
+        <div class="w clearfix">
+            <!-- 左边导航 -->
+            <ul class="nav">
+                <li><a class="active" href="#">自我介绍</a></li>
+                <li><a href="#">我的家乡</a></li>
+                <li><a href="#">我的中学</a></li>
+                <li><a href="#">我的大学</a></li>
+                <li><a href="#">全家福&nbsp;&nbsp;♥</a></li>
+                <li><a href="#">个人动态</a></li>
+                <li><a href="#">职业规划</a></li>
+                <li><a href="#">日志文章</a></li>
+                <li><a href="#">个人博客</a></li>
+            </ul>
+            <!-- 右边信息 -->
+            <div class="myclass">
+                <div class="title">About Me</div>
+                <ul class="list">
+                    <table>
+                        <tr>
+                            <td><li><h4><strong>姓名：</strong> 温丹娜</h4></li></td>
+                            <td><li><h4><strong>性别：</strong> 女</h4></li></td>
+                        </tr>
+                        <tr>
+                            <td><li><h4><strong>年龄：</strong> 22</h4></li></td>
+                            <td><li><h4><strong>民族：</strong> 汉族</h4></li></td>
+                        </tr>
+                        <tr>
+                            <td><li><h4><strong>电话：</strong> 12345678910</h4></li></td>
+                            <td><li><h4><strong>政治面貌：</strong> 中共党员</h4></li></td>
+                        </tr>
+                        <tr>
+                            <td><li><h4><strong>健康状况：</strong> Very Good</h4></li></td>
+                            <td><li><h4><strong>兴趣爱好：</strong> 羽毛球，舞蹈</h4></li></td>
+                        </tr>
+                    </table>
+                </ul>  
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="nav-index">
+        <!-- 滚动文字 -->
+        <marquee direction="right" behavior="alternate">
+            <span>欢迎来的温丹娜的个人简介！</span>
+        </marquee>
+    </div>  
+    <div class="lift">
+        <!-- 滚动照片 -->
+        <marquee direction="right" behavior="alternate" width="100%" height="300px">
+            <img src="./images/生活照1.png" alt="">
+            <img src="./images/生活照2.jpg" alt="">
+            <img src="./images/生活照3.jpg" alt="">
+            <img src="./images/生活照4.png" alt="">
+            <img src="./images/生活照5.png" alt="">
+            <img src="./images/生活照6.jpg" alt="">
+            <img src="./images/生活照7.jpg" alt="">
+            <img src="./images/生活照8.jpg" alt="">
+            <img src="./images/生活照9.jpg" alt="">
+            <img src="./images/生活照10.jpg" alt="">
+        </marquee>
+    </div>  
+    <!-- 歌曲欣赏，手动播放 -->
+    <audio src="./music/song.mp3" controls="controls" autoplay="true" loop="true"></audio>
+    <!--  chrome关掉了声音自动播放，但下列标签能自动播放，但不能循环。      
+        <embed src="./music/song.mp3" width="170" height="25" autoplay="true" loop="true"></embed>
+    -->
+</body>
+</html>
+        

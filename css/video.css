@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style-type: none;
+}
+.mr-content{
+    width:1400px;
+    height:510px;
+    margin:30px auto;
+    text-align:center;
+}
+.chapter_verticalLine {
+    border-left: 1px dashed #DADFE6;
+    position: absolute;
+    left: 900px;
+    top: 120px;
+    bottom: 185px;
+}
+.cont{
+    position: relative;
+    text-align:left;
+}
+.catalog_title{
+    margin-top: 10px;
+    height: 52px;
+    background: #F5F7FA;
+}
+.catalog_img{
+    float: left;
+}
+.catalog_name span{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.catalog_name {
+    padding: 6px 20px 13px 0;
+    width: 450px;
+    line-height: 40px;
+    font-weight: 600;
+    overflow: hidden;
+}
+.catalog_level {
+    padding-top: 6px;
+    margin-top: 5px; 
+    padding-left: 65px;
+}
+.catalog_level .catalog_name {
+    padding: 0;
+    font-weight: 540;    
+    cursor: pointer;
+}
+.catalog_task {
+    position: absolute;
+    left: 34px;
+    top: 50%;
+}
+.catalog_task .img{
+    margin-left: -16px;
+    margin-top: -158px;
+    background: url(/mooc2-ans/images/courselist/icon_yiwanc.png) 
+    no-repeat center center/24px 24px;
+}
+.button button{
+    margin: 10px 20px;
+}

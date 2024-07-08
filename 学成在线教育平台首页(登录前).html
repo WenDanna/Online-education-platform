@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- 引入标题logo图片 -->
+    <link rel="shortcut icon" href="./images/logo.ico">
+    <title>学成在线</title>
+</head>
+<body>
+    <div class="header">
+        <div class="w">
+            <h1 class="logo"><img src="./images/logo1.png" alt="logo"></h1>
+            <ul class="nav clearfix">
+                <!-- 浮动是给亲兄弟设置的，千万不要写到老表身上了 -->
+                <li><a class="active" href="#">首页</a></li>
+                <li><a href="./留言板页面.html">留言板</a></li>
+                <li><a href="./个人简介页面.html">个人简介</a></li>
+            </ul>
+            <div class="search clearfix">
+                <input placeholder="请输入关键字" class="text" type="text">
+                <a href="./搜索内容分类页.html"><button class="btn"></button></a>
+            </div>
+            <div class="user">
+                <span><a href="./验证注册页.html">注册</a></span>
+                <span>or</span>
+                <span><a href="./登录页面.html">登录</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="w clearfix">
+            <ul class="nav">
+                <li><a class="active" href="#">前端开发</a></li>
+                <li><a href="#">后端开发</a></li>
+                <li><a href="#">移动开发</a></li>
+                <li><a href="#">人工智能</a></li>
+                <li><a href="#">商业预测</a></li>
+                <li><a href="#">云计算&大数据</a></li>
+                <li><a href="#">运维&从测试</a></li>
+                <li><a href="#">UI设计</a></li>
+                <li><a href="#">产品</a></li>
+                <!-- 伪元素：假的元素，css模拟出来的钾元素，简化html页面结构 -->
+            </ul>
+            <div class="myclass">
+                <div class="title">我的课程表</div>
+                <ul class="list">
+                    <li><a href="#">
+                            <h4><strong>继续学习</strong> 程序语言设计</h4>
+                            <p>正在学习-使用对象</p>
+                        </a></li>
+                    <li><a href="#">
+                            <h4><strong>快乐学习</strong> H5前端开发</h4>
+                            <p>正在学习-图片、音频、视频标签</p>
+                        </a></li>
+                    <li><a href="#">
+                            <h4><strong>用心学习</strong> 后端移动响应开发</h4>
+                            <p>正在学习-购物车模块</p>
+                        </a></li>
+                </ul>
+                <button>全部课程</button>
+            </div>
+        </div>
+    </div>
+    <div class="nav-index">
+        <ul class="w clearfix">
+            <li><a class="blue" href="#">精品推荐</a></li>
+            <li><a href="#">JQuery</a></li>
+            <li><a href="#">Spark</a></li>
+            <li><a href="#">MySQL</a></li>
+            <li><a href="#">JavaWeb</a></li>
+            <li><a href="#">MySQL</a></li>
+            <li class="none"><a href="#">JavaWeb</a></li>
+            <li class="none"><a class="blue" href="#">修改兴趣</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="session w">
+            <div class="title clearfix">
+                <h4>精品推荐</h4>
+                <a class="all" href="#">查看全部</a>
+            </div>
+            <ul class="list clearfix">
+                <li><a href="#">
+                    <img class="pic" src="./images/course01.png" alt="">
+                    <h5>ThinkPHP5.0博客系统实战+Bootstrap+MySQL</h5>
+                    <p><span class="orange">高级</span> • 1125人在学习</p>
+                    <img class="abs-hot" src="./images/hot.png" alt="">
+                </a></li>
+                <li><a href="#">
+                    <img class="pic" src="./images/course02.png" alt="">
+                    <h5>Android网络图片加载框架详解+Glide+Fresco+UlL</h5>
+                    <p><span class="orange">高级</span> • 1125人在学习</p>
+                    <img class="abs-hot" src="./images/hot.png" alt="">
+                </a></li>
+                <li><a href="#">
+                    <img class="pic" src="./images/course03.png" alt="">
+                    <h5>Angular 2 最新框架+主流技术+项目实战</h5>
+                    <p><span class="orange">高级</span> • 1125人在学习</p>
+                    <img class="abs-hot" src="./images/hot.png" alt="">
+                </a></li>
+                <li><a href="#">
+                    <img class="pic" src="./images/course04.png" alt="">
+                    <h5>Android Hybrid App开发实战+主流技术+项目实战</h5>
+                    <p><span class="orange">高级</span> • 1125人在学习</p>
+                    <img class="abs-hot" src="./images/hot.png" alt="">
+                </a></li>
+                <li><a href="#">
+                    <img class="pic" src="./images/course05.png" alt="">
+                    <h5>UGUI源码深度剖析+最新框架+主流技术+项目实战</h5>
+                    <p><span class="orange">高级</span> • 1125人在学习</p>
+                    <img class="abs-hot" src="./images/hot.png" alt="">
+                </a></li>
+                <li><a href="#">
+                    <img class="pic" src="./images/course06.png" alt="">
+                    <h5>Kami2首页界面切换效果+主流技术+项目实战</h5>
+                    <p><span class="orange">高级</span> • 1125人在学习</p>
+                    <img class="abs-hot" src="./images/hot.png" alt="">
+                </a></li>
+                <li><a href="#">
+                    <img class="pic" src="./images/course07.png" alt="">
+                    <h5>UNITY Profiler 入门，学习框架+主流技术+项目实战</h5>
+                    <p><span class="orange">高级</span> • 1125人在学习</p>
+                    <img class="abs-hot" src="./images/hot.png" alt="">
+                </a></li>
+                <li><a href="#">
+                    <img class="pic" src="./images/course08.png" alt="">
+                    <h5>Cocos 1 最新框架+主流技术+项目实战</h5>
+                    <p><span class="orange">高级</span> • 1125人在学习</p>
+                    <img class="abs-hot" src="./images/hot.png" alt="">
+                </a></li>
+                <li><a href="#">
+                    <img class="pic" src="./images/course01.png" alt="">
+                    <h5>ThinkPHP5.0博客系统实战+Bootstrap+MySQL</h5>
+                    <p><span class="orange">高级</span> • 1125人在学习</p>
+                    <img class="abs-hot" src="./images/hot.png" alt="">
+                </a></li>
+                <li><a href="#">
+                    <img class="pic" src="./images/course02.png" alt="">
+                    <h5>Android网络图片加载框架详解+Glide+Fresco+UlL</h5>
+                    <p><span class="orange">高级</span> • 1125人在学习</p>
+                    <img class="abs-hot" src="./images/hot.png" alt="">
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="w clearfix">
+            <div class="left">
+                <img class="logo" src="./images/logo1.png" alt="">
+                <p class="info">学成在线致力于普及中国最好的教育它与中国一流大学和机构合作提供在线课程。
+                    © 2023年XTCG Inc.保留所有权利。-鲁2203210120号</p>
+                <button class="btn">下载APP</button>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">关于学成网</a></li>
+                    <li><a href="#">关于</a></li>
+                    <li><a href="#">管理团队</a></li>
+                    <li><a href="#">工作机会</a></li>
+                    <li><a href="#">客户服务</a></li>
+                    <li><a href="#">帮助</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">新手指南</a></li>
+                    <li><a href="#">如何注册</a></li>
+                    <li><a href="#">如何选课</a></li>
+                    <li><a href="#">如何拿到毕业证</a></li>
+                    <li><a href="#">学分是什么</a></li>
+                    <li><a href="#">考试未通过怎么办</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">合作伙伴</a></li>
+                    <li><a href="#">合作机构</a></li>
+                    <li><a href="#">合作导师</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-nav">
+        <ul>
+           <li><a href="#">编程入门</a></li>
+           <li><a href="#">数据分析师</a></li>
+           <li><a href="#">机器学习工程师</a></li>
+           <li><a href="#">前端开发工程师</a></li>
+           <li><a href="#">人工智能工程师</a></li>
+           <li><a href="#">全栈工程师</a></li>
+           <li><a href="#">iOS工程师</a></li>
+           <li><a href="#">VR开发者</a></li>
+           <li><a href="#">深度学习</a></li>
+           <li><a href="#">商业预测分析师</a></li>
+           <li><a href="#">Android开发工程师</a></li>
+        </ul>
+    </div>
+</body>
+</html>

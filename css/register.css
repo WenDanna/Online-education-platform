@@ -1,0 +1,107 @@
+/* 背景图片 */
+body {
+    margin: 0;
+    background: url("../images/bg1.png");
+    /* background-size: cover; 
+    background-repeat: no-repeat; */
+}
+/* 背景框*/
+.border {
+    width: 1125px;
+    height: 710px;
+    border: 8px solid #EEEEEE;
+    background-color: white;
+    margin: 22px auto;
+}
+/* 中间部分*/
+.center {
+    margin: 12px 100px;
+}
+/* 标题 */
+h1{
+    margin: 6px;
+    padding: 0;
+}
+.td_left {
+    width: 100px;
+    /* 每行的高度为45个像素点 */
+    height: 45px;
+    /* 字体向右对齐 */
+    text-align: right;
+}
+.td_right {
+    /* 左边字体部分与右边内容部分之间，
+    填充（隔开）50个像素点的位置 */
+    padding-left: 50px ;
+}
+/* 设置学历下拉框宽高 */
+#qualifiction{
+    width: 55px;
+    height: 32px;
+}
+/* 对信息输入区域的边框进行描述 */
+#username, #password, #email, #name, 
+#tel, #birthday, #checkcode {
+    width: 251px;
+    height: 32px;
+    border: 1px solid #A6A6A6;
+    /* 设置边框圆角 */
+    border-radius: 5px;
+    padding-left: 10px;
+}
+/* 输入框后面的提示信息 */
+#tips,#s_username,#s_password{
+    font-size: 15px;
+    color: #8e8e8e;
+}
+/* 提示信息特殊颜色 */
+#tips .color,#s_username,#s_password{
+    color: red;
+}
+/* 验证码格式 */
+.code
+{
+    font-family:Arial;
+    font-style:italic;
+    color:blue;
+    font-size:30px;
+    border:0;
+    margin-right: 45px;
+    padding:2px 3px;
+    letter-spacing:3px;
+    font-weight:bolder;            
+    float:right;           
+    cursor:pointer;
+    width:150px;
+    height:50px;
+    line-height:60px;
+    text-align:center;
+    vertical-align:middle;
+    background-color:#D8B7E3;
+}
+span {
+    text-decoration:none;
+    font-size:12px;
+    color:#288bc4;
+    padding-left:10px;
+}
+span:hover {
+    text-decoration:underline;
+    cursor:pointer;
+}
+/* 重置和注册按钮 */
+#td_sub{
+    text-align: center;
+}
+#btn_sub{
+    width: 150px;
+    height: 40px;
+    background-color: #FFD026;
+    border: 1px solid #FFD026 ;
+    /*光标: 手指*/
+    cursor: pointer;
+}
+/* 多选按钮 */
+.sel{
+    margin: 185px;
+}

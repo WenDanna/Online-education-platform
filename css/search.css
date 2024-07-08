@@ -1,0 +1,68 @@
+body{
+    /* 背景图片 */
+    background-image: url(https://img0.baidu.com/it/u=1985782942,2642646797&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=333);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul { 
+    /*设置列表样式：无*/
+    list-style: none outside none;               
+}
+.category{
+    /* 设置页面总体样式 */
+    width: 1000px;    /*宽*/
+    height: 600px;    /*高*/
+    margin:  auto;    /*外边距*/
+    padding: 60px;  /*内边距*/
+/*  background: url() no-repeat; 背景图片和平铺方式
+    border-radius: 10px;   设置圆角边框 
+*/
+}
+.title {
+    /*设置标题样式*/
+    font-size: 32px;    /*字体大小/
+    padding-top: 80px;  /*上内边距*/
+    height: 50px;       
+    line-height: 32px;  /*行高*/
+    color: #000;   
+    text-align: left;   /*文字左对齐*/
+}
+.category-subtitle {
+    display: inline-block;     /*显示方式*/
+    vertical-align: middle;    /*垂直对齐方式*/
+    font-size: 16px;           
+    color: #595454;             
+}
+.category-list {
+    margin-left: -15px;
+}
+.category-item {               
+    width: 420px;              
+    float: left;               /*浮动方式（左）*/
+    text-align: left;          
+    margin-left: 15px;              
+    color: #0e5fca;              
+}
+.small-category {                           
+    margin-top: 10px;            
+}
+.small-category-item {
+    /*设置具体课程样式*/
+    float: left;               
+    padding: 7px 10px;
+    border: 1px solid;         
+    border-radius: 80px;  /*圆角边框*/
+    cursor: pointer;      /*设置鼠标在文字上时，鼠标样式*/
+    margin: 10px 6px 0 0;
+    line-height: 14px;         
+}
+.category-item-2 {               
+    /*设置“设计创作”部分的样式*/
+    color: #820e2d;
+}
+.category-item-3 {
+    color: #1b7b15;
+}
+.category-item-4 {
+    color: #b7610b;
+}

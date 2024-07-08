@@ -1,0 +1,140 @@
+/* 公共部分 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header开始 */
+.header .w {
+    height: 100px;
+    /* 开启弹性布局---控制里面的子元素 */
+    display: flex;
+    /* 控制侧/Y轴垂直居中 */
+    align-items: center;
+    /* 控制主/X轴水平--两端对齐，剩下平分 */
+    justify-content: space-between;
+}
+img{
+    margin-left: 5px;
+    width: 220px;
+    height: 300px;
+}
+.header .nav li {
+    float: left;
+    margin: 0 13px;
+}
+.header .nav a{
+    padding: 7px;
+    font-size: 18px;
+    color: #050505;
+}
+.header .nav a.active,.header .nav a:hover  {
+    border-bottom: 2px solid #5500ae;
+    color: #5201a8;
+}
+.header .search {
+    width: 411px;
+    height: 40px;
+    border: 1px solid #5500af;
+    /* css3新盒子模型  写width是多少就是多少，不管padding和border有多少 */
+    box-sizing: border-box;
+}
+.header .search .text {
+    float: left;
+    padding-left: 16px;
+    width: 360px;
+    height: 38px;
+    box-sizing: border-box;
+}
+.header .search .btn {
+    float: left;
+    width: 49px;
+    height: 39px;
+    background: url(../images/btn.png) center;
+}
+.header .user {
+    margin-right: 30px;
+    font-size: 15px;
+}
+.user span{
+    margin-left: 3px;
+}
+/* banner开始 */
+.banner {
+    height: 420px;
+    background: #420088;
+}
+.banner .nav {
+    float: left;
+    height: 420px;
+    width: 190px;
+    background-color: rgba(0,0,0,.3);
+}
+.banner .nav li:first-child {
+    margin-top: 12px;
+}
+.banner .nav li a {
+    display: block;
+    font-size: 14px;
+    line-height: 44px;
+    color: white;
+    margin: 0 20px;
+}
+.banner .nav a::after {
+    content: '>';
+    float: right;
+}
+.banner .nav a.active,.banner .nav a:hover {
+    color: #00a4ff;
+}
+.banner .myclass {
+    margin-top: 50px;
+    float: right;
+    width: 880px;
+    height: 320px;
+    background-color: white;
+}
+.banner .myclass .title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    color: #fff;
+    background-color: #9bceea;
+    text-align: center;
+}
+.banner .myclass .list {
+    padding: 0 105px;
+}
+.banner .myclass .list li {
+    padding: 20px 80px;
+    border-bottom: 1px solid #efefef;
+}
+.banner .myclass .list h4{
+    font-size: 14px;
+    color: #4e4e4e;
+}
+
+.banner .myclass .list h4 strong{
+    font-size: 16px;
+    color: #4e4e4e;
+}
+.banner .myclass .list table{
+    margin: 10px;
+}
+/* nav-index开始 */
+.nav-index{
+    height: 60px;
+    margin-top: 8px;
+    background-color: #490157;
+}
+.nav-index span{
+    line-height: 58px;
+    font-size: 35px;
+    color: #fff;
+}
+.lift img{
+    margin-top: 8px;
+}
+audio{
+    margin: 3px;
+}
